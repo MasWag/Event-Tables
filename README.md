@@ -1,2 +1,5 @@
 # Event-Tables
-rendering script of event tables
+
+いわゆるタイムテーブル (時間割や時刻表ではない) を記述したxmlからhtmlを生成するxsltです。現状出力するファイルはxhtmlではないです。xsltで日本語を出力するのでとりあえず多言語対応はするつもりはありません。
+
+XMLを生で書くのはつらいものがあるのでmarkdownのような簡単な記述言語を作る予定です。
