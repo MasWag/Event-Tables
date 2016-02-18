@@ -1,0 +1,23 @@
+h1,h2,h3{
+    font-size:medium;
+}
+h1 {
+    text-align:left;
+}
+h2 {
+    text-align:right;
+}
+table ,th {
+    border-collapse: collapse;
+    border: 2px #000000 solid;
+    border-width: 1px
+    page-break-inside : avoid;
+}
+tr {
+    border-width: 2px;
+}
+td {    
+    vertical-align: top;
+    border: 2px #000000 solid;
+    border-width: 0px 1px;
+}
