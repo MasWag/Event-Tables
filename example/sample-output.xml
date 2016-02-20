@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="timetable.xsl" type="text/xml" ?>
+<article>
+<title>title</title>
+<date>date</date>
+<hoshin title="name of aim" >
+aim
+</hoshin>
+<main>
+<events title="2015年 " aim="Nobady calls me chicken!" >
+<event time="不明">
+<subject>
+1985年から2015年へ
+</subject>
+<note>
+
+</note>
+</event>
+<event time="16:00">
+<subject>
+1985年から2015年へ
+</subject>
+<note>
+ビフがデロリアンを知る
+</note>
+</event>
+<event time="午後">
+<subject>
+1955年から2015年へ
+</subject>
+<note>
+ビフが消える
+</note>
+</event>
+<event time="19:28">
+<subject>
+2015年から1985年へ
+</subject>
+<note>
+なにも知らずドクたちが戻る
+</note>
+</event>
+</events>
+<events title="" aim="Your future is...whatever you make it." >
+</events>
+</main>
+</article>
