@@ -3,9 +3,12 @@
 <article>
   <title> タイムテーブルの例 </title>
   <date> 2015年10月21日 </date>
+
+  <!-- hoshin can be omitted -->
   <hoshin title="Back to the future" >
     1.21 Jigowatt
   </hoshin>
+
   <main>
     <events title="2015年" aim="Nobady calls me chicken!">
       <event time="不明">
@@ -36,12 +39,11 @@
           2015年から1985年へ
 	</subject>
 	<note>
-          なにも知らずドクたちが戻る
+          <ul><li>なにも知らずドクたちが戻る</li></ul>
 	</note>
       </event>
     </events>
-    <events title="" aim="Your future is...whatever you make it.">
-    </events>
+    <events title="" aim="Your future is...whatever you make it." />
   </main>
 </article>
 

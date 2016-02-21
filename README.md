@@ -1,7 +1,7 @@
 Event-Tables
 ============
 
-いわゆるタイムテーブル (時間割や時刻表ではない) を記述したxmlからhtmlを生成するxsltです。現状出力するファイルはxhtmlではないです。xsltで日本語を出力するのでとりあえず多言語対応はするつもりはありません。
+いわゆるタイムテーブル (時間割や時刻表ではない) を記述したxmlからxhtmlを生成するxsltです。xhtml 1.1を出力するはずです。invalidであればバグです。xsltで日本語を出力するのでとりあえず多言語対応はするつもりはありません。
 
 
 あるもの
@@ -21,10 +21,18 @@ awk ./src/makexml.awk < ./example/sample-input.md > output.xml
 src/eventtable.xsl
 ------------------
 
-XMLで書かれたタイムテーブルをhtmlに変換するxsltのテンプレート。出力されたhtmlはsrc/eventtable.cssを使って表示すると良さげ。
+XMLで書かれたタイムテーブルをxhtmlに変換するxsltのテンプレート。出力されたxhtmlはsrc/eventtable.cssを使って表示すると良さげ。
 
 ```
 xsltproc ./src/eventtable.xsl ./example/sample-input.xml > output.html
 ```
 
 とかいう感じで使う。
+
+TODO
+====
+
+* どういうXMLを受け取るかを (多分自然言語で)書く
+* markdownっぽいものをnoteに箇条書きを書けるように変える
+
+This software is released under the MIT License, see LICENSE. 
