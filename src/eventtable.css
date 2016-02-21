@@ -10,7 +10,7 @@ h2 {
 table ,th {
     border-collapse: collapse;
     border: 2px #000000 solid;
-    border-width: 1px
+    border-width: 1px;
     page-break-inside : avoid;
 }
 tr {
