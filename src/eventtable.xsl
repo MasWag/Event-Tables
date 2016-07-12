@@ -57,6 +57,9 @@
 <xsl:template match="li" >
   <li><xsl:value-of select="." /></li>
 </xsl:template>
+<xsl:template match="br" >
+  <br />
+</xsl:template>
 <xsl:template match="event" > 
   <tr>
     <td><xsl:value-of select="./@time" /></td>
